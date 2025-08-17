@@ -1,0 +1,42 @@
+{
+  "name": "Character Tracker",
+  "description": "Track character information, personality traits, and relationship networks with personality pie chart generation for AI analysis",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "main": "src/index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/yourusername/sillytavern-character-tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sillytavern-character-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sillytavern-character-tracker/issues"
+  },
+  "keywords": [
+    "sillytavern",
+    "plugin",
+    "character",
+    "personality",
+    "tracking",
+    "ai",
+    "chart",
+    "relationship"
+  ],
+  "tags": [
+    "character",
+    "personality",
+    "relationships",
+    "charts",
+    "ai",
+    "analysis"
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/yourusername/sillytavern-character-tracker/main/screenshots/main-interface.png",
+    "https://raw.githubusercontent.com/yourusername/sillytavern-character-tracker/main/screenshots/personality-chart.png",
+    "https://raw.githubusercontent.com/yourusername/sillytavern-character-tracker/main/screenshots/relationship-network.png"
+  ],
+  "requirements": {
+    "sillytavern": ">=1.9.0"
+  }
+} 

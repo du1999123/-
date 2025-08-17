@@ -1,0 +1,206 @@
+{
+  "characters": [
+    [
+      "Alice",
+      {
+        "name": "Alice",
+        "role": "Protagonist",
+        "personalityTraits": [
+          {
+            "name": "Brave",
+            "weight": 9
+          },
+          {
+            "name": "Curious",
+            "weight": 8
+          },
+          {
+            "name": "Loyal",
+            "weight": 7
+          },
+          {
+            "name": "Impulsive",
+            "weight": 6
+          }
+        ],
+        "relationships": [
+          {
+            "target": "Bob",
+            "type": "friend",
+            "notes": "Childhood friend, always supportive"
+          },
+          {
+            "target": "Charlie",
+            "type": "lover",
+            "notes": "Romantic relationship, passionate but complicated"
+          },
+          {
+            "target": "Diana",
+            "type": "enemy",
+            "notes": "Rival in the competition, constant conflict"
+          }
+        ],
+        "notes": "Main character with a strong sense of justice and adventure",
+        "createdAt": "2024-01-15T10:30:00.000Z"
+      }
+    ],
+    [
+      "Bob",
+      {
+        "name": "Bob",
+        "role": "Supporting Character",
+        "personalityTraits": [
+          {
+            "name": "Wise",
+            "weight": 8
+          },
+          {
+            "name": "Patient",
+            "weight": 9
+          },
+          {
+            "name": "Humble",
+            "weight": 7
+          },
+          {
+            "name": "Reserved",
+            "weight": 6
+          }
+        ],
+        "relationships": [
+          {
+            "target": "Alice",
+            "type": "friend",
+            "notes": "Childhood friend, always supportive"
+          },
+          {
+            "target": "Eve",
+            "type": "family",
+            "notes": "Younger sister, protective relationship"
+          }
+        ],
+        "notes": "The wise mentor figure who provides guidance",
+        "createdAt": "2024-01-15T10:35:00.000Z"
+      }
+    ],
+    [
+      "Charlie",
+      {
+        "name": "Charlie",
+        "role": "Love Interest",
+        "personalityTraits": [
+          {
+            "name": "Charismatic",
+            "weight": 9
+          },
+          {
+            "name": "Mysterious",
+            "weight": 8
+          },
+          {
+            "name": "Passionate",
+            "weight": 7
+          },
+          {
+            "name": "Secretive",
+            "weight": 6
+          }
+        ],
+        "relationships": [
+          {
+            "target": "Alice",
+            "type": "lover",
+            "notes": "Romantic relationship, passionate but complicated"
+          },
+          {
+            "target": "Frank",
+            "type": "colleague",
+            "notes": "Work together on secret projects"
+          }
+        ],
+        "notes": "Enigmatic love interest with hidden depths",
+        "createdAt": "2024-01-15T10:40:00.000Z"
+      }
+    ],
+    [
+      "Diana",
+      {
+        "name": "Diana",
+        "role": "Antagonist",
+        "personalityTraits": [
+          {
+            "name": "Ambitious",
+            "weight": 9
+          },
+          {
+            "name": "Manipulative",
+            "weight": 8
+          },
+          {
+            "name": "Intelligent",
+            "weight": 8
+          },
+          {
+            "name": "Ruthless",
+            "weight": 7
+          }
+        ],
+        "relationships": [
+          {
+            "target": "Alice",
+            "type": "enemy",
+            "notes": "Rival in the competition, constant conflict"
+          },
+          {
+            "target": "Grace",
+            "type": "friend",
+            "notes": "Strategic alliance for mutual benefit"
+          }
+        ],
+        "notes": "Main antagonist, driven by ambition and power",
+        "createdAt": "2024-01-15T10:45:00.000Z"
+      }
+    ],
+    [
+      "Eve",
+      {
+        "name": "Eve",
+        "role": "Supporting Character",
+        "personalityTraits": [
+          {
+            "name": "Innocent",
+            "weight": 8
+          },
+          {
+            "name": "Optimistic",
+            "weight": 7
+          },
+          {
+            "name": "Creative",
+            "weight": 6
+          },
+          {
+            "name": "Naive",
+            "weight": 5
+          }
+        ],
+        "relationships": [
+          {
+            "target": "Bob",
+            "type": "family",
+            "notes": "Older brother, protective relationship"
+          },
+          {
+            "target": "Alice",
+            "type": "friend",
+            "notes": "Sees Alice as a role model"
+          }
+        ],
+        "notes": "Young and innocent character who brings hope",
+        "createdAt": "2024-01-15T10:50:00.000Z"
+      }
+    ]
+  ],
+  "exportDate": "2024-01-15T11:00:00.000Z",
+  "version": "1.0.0"
+} 

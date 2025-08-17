@@ -1,0 +1,44 @@
+{
+  "name": "sillytavern-character-tracker",
+  "version": "1.0.0",
+  "description": "A Silly Tavern plugin for tracking character information, personality traits, and relationship networks with personality pie chart generation",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "postinstall": "npm run build"
+  },
+  "keywords": [
+    "sillytavern",
+    "plugin",
+    "character",
+    "personality",
+    "tracking",
+    "ai",
+    "chart",
+    "relationship"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/sillytavern-character-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/sillytavern-character-tracker/issues"
+  },
+  "homepage": "https://github.com/yourusername/sillytavern-character-tracker#readme",
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "css-loader": "^6.8.0",
+    "style-loader": "^3.3.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+} 
